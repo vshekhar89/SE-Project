@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.software.game.airhockeyandroid">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:name=".NetworkManager.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginManager.User_Login"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LoginManager.CreateProfile"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.software.game.airhockeyandroid.CreateProfile" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LoginManager.ChooseFromMenu"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.software.game.airhockeyandroid.ChooseFromMenu" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LoginManager.ManageProfile"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.software.game.airhockeyandroid.ManageProfile" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".GameSettings.Settings"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.software.game.airhockeyandroid.Settings" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".InAppStore.InAppPurchase"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.software.game.airhockeyandroid.InAppPurchase" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LeadershipBoard.Leadership"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.software.game.airhockeyandroid.Leadership" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".PlayGame.ChooseFromPlayerMode"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.software.game.airhockeyandroid.PlayGame" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".PlayGame.SinglePlayerActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.software.game.airhockeyandroid.PlayGame" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

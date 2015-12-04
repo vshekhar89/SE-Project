@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Volumes/Hoth/Air Hockey Games/AirHockeyNew/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Volumes/Hoth/Air Hockey Games/AirHockeyNew/app/build/intermediates/pre-dexed/release/classes-b84d74ddf92552ad4fb91cd115b26b44648559c1.jar" />
+    </item>
+    <item
+        jar="/Users/shardendu/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.15/9093a362d18c5f81f58e49d86dece57d9b6e1cb7/library-1.0.15.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="9093a362d18c5f81f58e49d86dece57d9b6e1cb7">
+        <dex dex="/Volumes/Hoth/Air Hockey Games/AirHockeyNew/app/build/intermediates/pre-dexed/release/library-1.0.15-e40349a30285fbc3f15bfdd2cc49e3d0208f8ba0.jar" />
+    </item>
+    <item
+        jar="/Volumes/Hoth/Air Hockey Games/AirHockeyNew/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Volumes/Hoth/Air Hockey Games/AirHockeyNew/app/build/intermediates/pre-dexed/release/classes-773d695a41fe945d3a1aa7efb8f1d882a7d430fa.jar" />
+    </item>
+    <item
+        jar="/Volumes/Hoth/Air Hockey Games/AirHockeyNew/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Volumes/Hoth/Air Hockey Games/AirHockeyNew/app/build/intermediates/pre-dexed/release/internal_impl-23.0.1-48cd63f9dcec46465dfe88c424194ce91cb42493.jar" />
+    </item>
+    <item
+        jar="/Volumes/Hoth/Air Hockey Games/AirHockeyNew/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="/Volumes/Hoth/Air Hockey Games/AirHockeyNew/app/build/intermediates/pre-dexed/release/classes-0a124560bb80197cd2054158963d5dc3c16e6d2c.jar" />
+    </item>
+    <item
+        jar="/Users/shardendu/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Volumes/Hoth/Air Hockey Games/AirHockeyNew/app/build/intermediates/pre-dexed/release/support-annotations-23.0.1-672acfecbddce93da8f5a5c62c851e673ef10c39.jar" />
+    </item>
+
+</items>

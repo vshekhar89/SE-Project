@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="150dp"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/update_username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="New username" />
+
+    <EditText
+        android:id="@+id/old_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Old Password" />
+
+    <EditText
+        android:id="@+id/update_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="New Password" />
+
+    <Button
+        android:id="@+id/submit_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.07"
+        android:text="@string/apply_changes" />
+</LinearLayout>
